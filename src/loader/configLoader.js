@@ -22,6 +22,7 @@ export default (configPath) => {
 
   return {
     output: outputFile,
+    folderPath,
     content,
   };
 };
