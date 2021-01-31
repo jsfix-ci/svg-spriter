@@ -15,7 +15,7 @@ export default () => {
   let content = '';
 
   if (!!options.folder) {
-    content = folderLoader(options.folder, options.output)
+    content = folderLoader(options.folder, options.output);
   }
 
   fs.writeFile(options.output, content, function (err) {

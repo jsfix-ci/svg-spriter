@@ -16,7 +16,7 @@ export const parseSymbolXML = (svgContent, filename) => {
   const svgParsed = `<symbol ${symbolAttrs}>${content}</symbol>`;
 
   return svgParsed;
-}
+};
 
 export const parseSvgXML = (content) => {
   const xmlAttrs = parseAttrs([
