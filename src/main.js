@@ -1,4 +1,7 @@
-import { default as program } from "commander";
+import fs from 'fs';
+import program from "commander";
+
+import folderLoader from './loader/folder';
 
 export default () => {
   program
@@ -8,5 +11,18 @@ export default () => {
     .parse(process.argv);
 
   const options = program.opts();
-  console.log(options);
+
+  let content = '';
+
+  if (!!options.folder) {
+    content = folderLoader(options.folder, options.output)
+  }
+
+  fs.writeFile(options.output, content, function (err) {
+    if (err) {
+      console.error(fileErr);
+    } else {
+      console.log(options.output);
+    }
+  });
 };
