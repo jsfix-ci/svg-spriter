@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "babel src -d lib",
-    "exec": "npm run build && node bin/svg-spriter.js",
+    "exec": "npm run build && node bin/svg-spriter",
     "lint": "jshint src",
     "test": "npm run lint"
   },
