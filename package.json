@@ -1,0 +1,25 @@
+{
+  "name": "svg-spriter",
+  "version": "0.0.1",
+  "description": "A low-level tools to creates a SVG Sprite based into SVG collection.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhsalves/svg-spriter.git"
+  },
+  "keywords": [
+    "SVG",
+    "sprite",
+    "tools",
+    "converts"
+  ],
+  "author": "Matheus Alves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhsalves/svg-spriter/issues"
+  },
+  "homepage": "https://github.com/mhsalves/svg-spriter#readme"
+}
