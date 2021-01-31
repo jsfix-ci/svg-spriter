@@ -1,5 +1,5 @@
 {
-  "name": "svg-spriter",
+  "name": "@mhsalves/svg-spriter",
   "version": "0.0.1",
   "description": "A low-level tools to creates a SVG Sprite based into SVG collection.",
   "main": "index.js",
@@ -35,5 +35,8 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.5",
     "commander": "^7.0.0"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
