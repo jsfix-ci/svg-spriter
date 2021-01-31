@@ -1,2 +1,7 @@
+#! /usr/bin/env node
+// -*- js -*-
+
+"use strict";
+
 var main = require('../lib/main');
 main.default();
