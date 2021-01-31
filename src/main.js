@@ -20,7 +20,7 @@ export default () => {
 
   fs.writeFile(options.output, content, function (err) {
     if (err) {
-      console.error(fileErr);
+      console.error(err);
     } else {
       console.log(options.output);
     }
