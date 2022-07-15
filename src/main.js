@@ -1,5 +1,5 @@
 import fs from 'fs';
-import program from "commander";
+import { program } from 'commander';
 
 import configLoader from './loader/configLoader';
 import folderLoader from './loader/folder';
